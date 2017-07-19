@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+可自动缓存输入记录的TextField
                        DESC
 
-  s.homepage         = 'https://github.com/${USER_NAME}/${POD_NAME}'
+  s.homepage         = 'https://github.com/RanYeee/RNSelectedTextField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rany' => 'xar93@qq.com' }
