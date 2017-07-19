@@ -71,7 +71,7 @@
     [self addSubview:self.textField];
     //init Button
     UIButton *rightSelectButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [rightSelectButton setImage:[UIImage imageNamed:@"down"] forState:UIControlStateNormal];
+    [rightSelectButton setImage:[UIImage imageNamed:@"down.png"] forState:UIControlStateNormal];
     rightSelectButton.backgroundColor = [UIColor groupTableViewBackgroundColor];
     [rightSelectButton addTarget:self action:@selector(rightSelectButtonAction) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:rightSelectButton];
@@ -202,6 +202,19 @@
     }
     
     return;
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    if (self.autoSaveCache) {
+        
+        [self saveInputCache];
+        
+    }
+    
+    [self.textField endEditing:YES];
+    
+    return YES;
 }
 
 #pragma mark - RNInputHistoryListViewDelegate

@@ -1,0 +1,16 @@
+PODS:
+  - RNSelectedTextField (0.1.0)
+
+DEPENDENCIES:
+  - RNSelectedTextField (from `../`)
+
+EXTERNAL SOURCES:
+  RNSelectedTextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RNSelectedTextField: b10b6896dda1991c11b73a4dcf63cc37ecafb008
+
+PODFILE CHECKSUM: 8fbb380b1d97ab3868e4d4ca3a83dd8c7855fae3
+
+COCOAPODS: 1.1.1

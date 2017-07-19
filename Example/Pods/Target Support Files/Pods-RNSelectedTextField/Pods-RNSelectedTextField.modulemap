@@ -1,0 +1,6 @@
+framework module Pods_RNSelectedTextField {
+  umbrella header "Pods-RNSelectedTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
